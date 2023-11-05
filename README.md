@@ -1,29 +1,29 @@
 # AltiQ-Grands-Hospitality
 
-Column Description for dim_date:
+**Column Description for dim_date:**
 1. date: This column represents the dates present in May, June and July.
 2. mmm yy: This column represents the date in the format of mmm yy (monthname year).
 3. week no: This column represents the unique week number for that particular date.
 4. day_type: This column represents whether the given day is Weekend or Weekeday.
 
-Column Description for dim_hotels:
+**Column Description for dim_hotels:**
 1. property_id: This column represents the Unique ID for each of the hotels.
 2. property_name: This column represents the name of each hotel.
 3. category: This column determines which class[Luxury, Business] a particular hotel/property belongs to. 
 4. city: This column represents where the particular hotel/property resides in.
 
-Column Description for dim_rooms:
+**Column Description for dim_rooms:**
 1. room_id: This column represents the type of room[RT1, RT2, RT3, RT4] in a hotel.
 2. room_class: This column represents to which class[Standard, Elite, Premium, Presidential] particular room type belongs.
 
-Column Description for fact_aggregated_bookings:
+**Column Description for fact_aggregated_bookings:**
 1. property_id: This column represents the Unique ID for each of the hotels.
 2. check_in_date: This column represents all the check_in_dates of the customers.
 3. room_category: This column represents the type of room[RT1, RT2, RT3, RT4] in a hotel.
 4. successful_bookings: This column represents all the successful room bookings that happen for a particular room type in that hotel on that particular date.
 5. capacity: This column represents the maximum count of rooms available for a particular room type in that hotel on that particular date.
 
-Column Description for fact_bookings:
+**Column Description for fact_bookings:**
 1. booking_id: This column represents the Unique Booking ID for each customer when they booked their rooms.
 2. property_id: This column represents the Unique ID for each of the hotels
 3. booking_date: This column represents the date on which the customer booked their rooms.
