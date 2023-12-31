@@ -1,3 +1,7 @@
+``` ** Youtube Link to entire Power BI portfolio**
+https://youtube.com/playlist?list=PLF4ndXxNSysvC-SNGWhgjwt6BydJu32v_&si=TG-jMMXR25U6erT1
+```
+
 # Hotel Data Analysis Challenge
 
 ![Alt text](https://miro.medium.com/v2/resize:fit:640/format:webp/1*kb7z5T1vwCmlex3_Y5Jnyg.png)
